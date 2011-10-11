@@ -8,3 +8,5 @@ while True:
 	msg, (addr, port) = dsock.recvfrom(100)
 	print "Received msg: " + msg + "from " + addr + ":" + str(port)
 	dsock.sendto(msg, (addr, port))
+
+#return 0
